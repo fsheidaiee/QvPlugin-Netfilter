@@ -1,6 +1,7 @@
 name: QvPlugin Build Action Qt6
 
 on:
+  workflow_dispatch:
   push:
   release:
     types: [prereleased]
